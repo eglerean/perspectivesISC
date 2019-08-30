@@ -4,7 +4,7 @@ clear all
 output_path = './output/'
 
 % load behavioral scores
-DATA = load('datatable_emo_plus_socnet.mat');
+DATA = load('data/datatable_emo_plus_socnet.mat');
 templabels=DATA.datatableemoplussocnet.Properties.VariableNames';
 % get rid of first column
 labels=templabels(2:end);
